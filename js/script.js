@@ -18,3 +18,7 @@ printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wyg
 
 let randomNumber = Math.floor(Math.random() * 3 + 1);
 printMessage('Wylosowana liczba: ' + randomNumber);
+
+// Logika if .. else
+
+console.log('Wylosowana liczba to: ' + randomNumber);
