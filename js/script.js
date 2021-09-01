@@ -1,5 +1,5 @@
-let computerMove ='kamień';
-printMessage('Zagrałem ' +  computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
+//let computerMove ='kamień';
+//printMessage('Zagrałem ' +  computerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
 
 let playerMove='papier';
 printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wygrywasz!');
@@ -16,9 +16,18 @@ printMessage('Zagrałem ' + playerMove + '! Jeśli Twój ruch to nożyce, to wyg
 //let randomNumber = Math.floor(Math.random() * 9 + 11);
 //printMessage('Wylosowana liczba: ' + randomNumber);
 
-let randomNumber = Math.floor(Math.random() * 3 + 1);
-printMessage('Wylosowana liczba: ' + randomNumber);
 
 // Logika if .. else
 
+let randomNumber = Math.floor(Math.random() * 3 + 1);
+printMessage('Wylosowana liczba: ' + randomNumber);
+
+
 console.log('Wylosowana liczba to: ' + randomNumber);
+
+let computerMove = 'nieznany ruch';
+
+if(randomNumber == 1) {
+    computerMove = 'kamień'
+}
+printMessage('Mój ruch to: ' + computerMove);
