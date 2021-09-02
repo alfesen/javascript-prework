@@ -1,0 +1,35 @@
+body {
+    background-image: url(https://i.postimg.cc/25nM4fFv/pexels-olia-danilevich-5088022.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    background-position: center center;
+    text-align: center;
+}
+.container {
+    height: 50vh;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.game {
+    margin-top: 300px;
+    width: 600px;
+    height: 500px;
+}
+button {
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    transition: all 1s;
+    border-radius: 10%;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+#messages {
+    font-size: 33px;
+    padding-top: 40px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
