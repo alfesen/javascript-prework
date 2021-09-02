@@ -10,9 +10,10 @@ function getMoveName(argMoveId){
     return 'nieznany ruch';
 }
 function displayResult(argComputerMove, argPlayerMove){
+    console.log('moves:', argComputerMove, argPlayerMove);
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
     if( argComputerMove == 'kamień' && argPlayerMove == 'papier') {
-        printMessage('Ty wygrywasz!')
+        printMessage('Ty wygrywasz!');
     } else if(argComputerMove == 'papier' && argPlayerMove == 'kamień') {
         printMessage('Przegrałeś')
     } else if(argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
