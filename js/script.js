@@ -1,6 +1,6 @@
 {const playGame = function(playerInput){
     clearMessages();
-    function getMoveName(argMoveId){
+    const getMoveName = function(argMoveId){
         if(argMoveId == 1){
         return 'kamień';
         } else if(argMoveId == 2){
